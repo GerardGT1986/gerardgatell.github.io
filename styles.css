@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 90px 0;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color:black;
+    color: white;
+}.servicio {
+    margin-bottom: 10px;
+}
+
+.servicio h3 {
+    cursor: pointer; /* Cambia el cursor al pasar sobre el título */
+    color: red; /* Cambia el color del texto */
+}
+
+.descripcion {
+    margin-top: 5px; /* Espacio entre el título y la descripción */
+    padding: 10px;
+    border: 1px solid #4CAF50; /* Bordes para las descripciones */
+    background-color: #f9f9f9; /* Fondo gris claro */
+}
